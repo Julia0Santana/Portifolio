@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- METADADOS -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Site 07">
+    <meta name="author" content="Julia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="página principal">
+
+    <!-- ESTILOS E FAVICON -->
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/imagems.png" type="image/x-icon">
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="img.js"></script>
+
+    <!-- TÍTULO -->
+    <title>Imagens</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- ÍCONES -->
+    <script src="https://kit.fontawesome.com/7d355892dd.js" crossorigin="anonymous" defer></script>
+</head>
+<body class="imagens">
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Portifólio Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portifólio</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="imagens.html">Imagens</a></li>
+            </ul>
+        </nav>
+        <br>
+        <nav>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/pt-BR/"><i class="fa-brands fa-tiktok"></i></a>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- ÁREA DE IMAGENS DE SITES -->
+        <section class="main-content">
+            <article class="text">
+                <h2>Imagens de Projetos</h2>
+                <p>
+                    Nesta seção, você confere capturas dos sites que desenvolvi ao longo do curso.
+                    Cada imagem representa uma etapa da minha evolução como desenvolvedora —
+                    do visual ao funcional — refletindo diferentes estilos, propostas e experiências de usuário.
+                </p>
+            </article>
+            <br><br>
+            <section id="img">
+                <div class="galeria">
+                    <!-- Site de Receitas -->
+                    <h3 class="titulo-categoria">Site de Receitas</h3>
+                    <div class="img-container">
+                        <img src="./img/bolo d chocolate.png" alt="Bolo de chocolate" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/creme d milho.png" alt="Creme de milho" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/cheesecake.png" alt="Cheesecake" class="img" onclick="cliqueModal(this)">
+                    </div>
+                    <!-- Brantechno -->
+                    <h3 class="titulo-categoria">Braintechno</h3>
+                    <div class="img-container">
+                        <img src="./img/brtc.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/bbbb.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/bbbbbbb.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+                    </div>
+                    <!-- Basal -->
+                    <h3 class="titulo-categoria">Basal</h3>
+                    <div class="img-container">
+                        <img src="./img/basal.png" alt="Basal" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/pdr.png" alt="Basal-Produtos" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/aliicate.png" alt="Basal-Alicate" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/martelopng.png" alt="Basal-Martelo" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/relacionados.png" alt="Basal-Relacionados" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/chave.png" alt="Basal-Chave" class="img" onclick="cliqueModal(this)">
+                    </div>
+                    <!-- Outros Sites -->
+                    <h3 class="titulo-categoria">Outros Sites</h3>
+                    <div class="img-container">
+                        <img src="./img/form.png" alt="Formulário" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/cidades.png" alt="Site Cidades" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/ft.png" alt="Fotografias" class="img" onclick="cliqueModal(this)">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ÁREA DE DESIGN -->
+        <section class="main-content">
+            <article class="text">
+                <h2>Design</h2>
+                <p>
+                    Aqui estão meus projetos de design, representando diferentes estilos e abordagens,
+                    sempre com o objetivo de criar interfaces intuitivas e visualmente impactantes.
+                </p>
+            </article>
+            <br><br>
+            <section id="img-design">
+                <div class="galeria">
+                    <div class="img-container">
+                        <img src="./img/robocop design.png" alt="Robocop Design" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/dinooo design.png" alt="Dino Design" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/dino 2 desing.png" alt="Dino 2 Design" class="img" onclick="cliqueModal(this)">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ÁREA DE CÓDIGOS -->
+        <section class="main-content">
+            <article class="text">
+                <h2>Meus Códigos</h2>
+                <p>
+                    Esta seção mostra minha evolução em programação, 
+                    desde funções básicas até soluções mais complexas, 
+                    com foco na criação de algoritmos eficientes e na resolução de problemas.
+                </p>
+            </article>
+            <br><br>
+            <section id="img-codigos">
+                <div class="galeria">
+                    <div class="img-container">
+                        <img src="./img/codeee.png" alt="Código exemplo 1" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/codee.png" alt="Código exemplo 2" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/code.png" alt="Código exemplo 3" class="img" onclick="cliqueModal(this)">
+                    </div>
+                    <div class="img-container">
+                        <img src="./img/code1.png" alt="Código exemplo 4" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/code2.png" alt="Código exemplo 5" class="img" onclick="cliqueModal(this)">
+                        <img src="./img/code3.png" alt="Código exemplo 6" class="img" onclick="cliqueModal(this)">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- MODAL DE IMAGEM -->
+    <div id="janelaModal" class="janelaModal escondeJanelaModal">
+        <span id="btnFechar" class="fecharModal">X</span>
+        <img id="imgModal" class="imgModal">
+        <div id="txtModal" class="txtModal"></div>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <span>&copy; 2025 Julia Oliveira | Todos os direitos reservados.</span>
+    </footer>
+</body>
+</html>
